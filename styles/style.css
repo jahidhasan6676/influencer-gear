@@ -150,6 +150,42 @@ body{
     
 
 }
+.footer{
+    width:100%;
+    height:150px;
+    background-color:rgb(37, 0, 37);
+}
+.title2{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top:20px;
+    
+    
+
+}
+.description{
+    color: rgb(217, 219, 225);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top:10px;
+    
+
+}
+.description2{
+    color: rgb(217, 219, 225);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top:10px;
+    
+}
+.content{
+    height:150px;
+    text-align: center;
+    border:1px solid purple;
+
+    
+}
 
 
 
