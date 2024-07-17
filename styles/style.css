@@ -124,7 +124,7 @@ body{
 }
 
 .image{
-    width:300px;
+    width:50%;
     height:300px;
     
     padding:15px;
@@ -150,43 +150,82 @@ body{
     
 
 }
-.footer{
-    width:100%;
-    height:150px;
-    background-color:rgb(37, 0, 37);
+/* featured product */
+.feature-product{
+    /* width:1200px; */
+    height:400px;
+    
+    margin:0 auto;
+    
+    display:flex;
+
 }
-.title2{
+.feature-image{
+    max-width:50%;
+    height:400px;
+    
+    padding:50px;
+    text-align: center;
+}
+.feature-content{
+    max-width:50%;
+    height:300px;
+    
+    margin-top:90px;
+}
+.feature-title{
+    color: rgb(10, 8, 38);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.feature-description{
+    color: rgb(108, 108, 108);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top:15px;
+
+}
+.btn{
+    padding:8px 12px 8px 12px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 700;
+    border:none;
+    margin-top:15px;
+
+}
+/* footer style */
+.footer{
+    max-width:100%;
+    height:150px;
+    background: rgb(10, 8, 38);
+}
+.footer-title{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-weight: 700;
-    margin-top:20px;
-    
-    
+    margin-top:30px;
 
 }
-.description{
+.footer-description{
     color: rgb(217, 219, 225);
     font-size: 1rem;
     font-weight: 700;
-    margin-top:10px;
-    
 
 }
-.description2{
+.footer-description-2{
     color: rgb(217, 219, 225);
     font-size: 0.8rem;
     font-weight: 700;
-    margin-top:10px;
-    
+
 }
-.content{
-    height:150px;
+.footer-content{
+    
+    padding:5px;
     text-align: center;
-    border:1px solid purple;
-
-    
 }
-
 
 
 
@@ -221,10 +260,38 @@ body{
     .image{
         width:100%;
     }
+    /* .footer{
+        width:100%;
+        height:100%;
+    } */
+     .feature-product{
+        flex-direction: column;
+        margin-top:1900px;
+        
+        
+     }
+     .feature-image img{
+        width:100%;
+        height:100%;
+        margin-right:200px;
+        
+    
+        
+     }
+     .feature-content{
+        width:100%;
+        text-align: center;
+        
+     }
+
+
+     .footer-content{
+        margin-top:400px;
+     }
 }
 
 
-/* tablet responsive media query */
+/* tablet responsive media query
 @media screen and (min-width:577px) and (max-width:992px){
     .nav{
         flex-direction: column;
@@ -237,4 +304,4 @@ body{
     .journey-content{
         text-align: center;
     }
-}
+} */
